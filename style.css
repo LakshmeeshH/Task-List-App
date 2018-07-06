@@ -1,24 +1,55 @@
 .c1 {
   background-color:  rgb(0, 168, 224);
-  z-index: 3;
+  border: #fff;
 }
 .headings {
   text-align: center;
-  
 }
 
 .c2 {
-  background-color: #ccc;
-  border: #fff;
-}
-
-.btcolor {
   background-color: rgb(0, 168, 224);
-  border: #fff 1px solid;
+  border: rgb(0, 168, 224);
 }
 
+.btcolor{
+  background-color: #fff;
+  color: #333;
+  border: rgb(0, 168, 224) 1px solid;
+}
+.btcolor:visited{
+  background-color: #fff;
+  color: #333;
+  border: rgb(0, 168, 224) 1px solid;
+}
 .btcolor:hover {
   background-color: #fff;
   color: #333;
   border: rgb(0, 168, 224) 1px solid;
 }
+.btcolor:active{
+  background-color: #fff;
+  color: #333;
+  border: rgb(0, 168, 224) 1px solid;
+}
+
+/*
+.btcolor:hover{
+  background-color: #fff;
+  color: #333;
+  border: rgb(0, 168, 224) 1px solid;
+}
+
+
+.btcolor {  
+  background: rgb(0, 168, 224);  
+  color: #ffffff;   
+  border: 2px solid;  
+  border-color: #ffffff; 
+}
+.btcolor:active { 
+  background: rgb(0, 168, 224);  
+  color: #ffffff;   
+  border: 2px solid;  
+  border-color: #ffffff; 
+ }
+ */
